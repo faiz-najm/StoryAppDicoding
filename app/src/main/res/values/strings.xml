@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Meddic</string>
+    <string name="title_home">Meddic</string>
+    <string name="title_detail_profile">Profile</string>
+
+    <string name="not_found">Scroll Up</string>
+    <string name="profile_not_found">tidak ditemukan</string>
+    <string name="zero_follow">masih kosong ~_~</string>
+    <string name="title_setting">Setting</string>
+
+    <!--welcome auth-->
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Mau belajar Android, iOS, Machine Learning, Cloud, Front-End, Back-End, dan bidang IT lainnya? Di Dicoding aja!</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Sudah siap untuk upgrade skill?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+
+    <!--story item-->
+    <string name="title">Title</string>
+    <string name="Desc">Lorem Ipsum</string>
+
+    <!--add story-->
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="description">description</string>
+    <string name="title_logout">Logout</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Retry Button</string>
+    <string name="location">location</string>
+</resources>

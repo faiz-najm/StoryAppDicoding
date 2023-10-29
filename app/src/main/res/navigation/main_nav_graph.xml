@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/storyFragment">
+
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.bangkit.storyappdicoding.ui.story.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story" >
+        <action
+            android:id="@+id/action_storyFragment_to_detailStoryFragment"
+            app:destination="@id/detailStoryFragment" />
+        <action
+            android:id="@+id/action_storyFragment_to_addStoryFragment"
+            app:destination="@id/addStoryFragment" />
+        <action
+            android:id="@+id/action_storyFragment_to_authActivity"
+            app:destination="@id/authActivity" />
+        <action
+            android:id="@+id/action_storyFragment_to_storyLocationFragment"
+            app:destination="@id/storyLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addStoryFragment"
+        android:name="com.bangkit.storyappdicoding.ui.story.AddStoryFragment"
+        android:label="fragment_add_story"
+        tools:layout="@layout/fragment_add_story" />
+    <fragment
+        android:id="@+id/detailStoryFragment"
+        android:name="com.bangkit.storyappdicoding.ui.story.DetailStoryFragment"
+        android:label="fragment_detail_story"
+        tools:layout="@layout/fragment_detail_story" >
+        <argument
+            android:name="story"
+            app:argType="com.bangkit.storyappdicoding.data.remote.response.ListStoryItem" />
+    </fragment>
+    <activity
+        android:id="@+id/authActivity"
+        android:name="com.bangkit.storyappdicoding.AuthActivity"
+        android:label="activity_auth"
+        tools:layout="@layout/activity_auth" />
+    <fragment
+        android:id="@+id/storyLocationFragment"
+        android:name="com.bangkit.storyappdicoding.ui.storylocation.StoryLocationFragment"
+        android:label="fragment_story_location"
+        tools:layout="@layout/fragment_story_location" />
+</navigation>
